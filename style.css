@@ -37,7 +37,7 @@ body{
     font-size: 3rem;
 }
 
-.main-content h2, .about-content h3{
+.main-content h2, h3 {
     color: #e3b374;
 }
 
@@ -71,7 +71,7 @@ body{
 }
     
 
-.about-intro{
+.about-intro, .skill-intro{
     text-align: center;
     max-width: 700px;
     margin: 0 auto;
@@ -84,6 +84,26 @@ body{
 .biography ul {
   padding-left: 20px;
 }
+
+.skills-container{
+    margin: 10rem 0;
+}
+
+.skill-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 5rem;
+    gap: 20px;
+}
+
+.card-item{
+    background-color: #2a2525;
+    border: 1px solid #6c5a50;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+
 
 
 
