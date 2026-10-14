@@ -71,10 +71,10 @@ body{
 }
     
 
-.about-intro, .skill-intro{
+.about-intro, .skill-intro, .projects-intro{
     text-align: center;
     max-width: 700px;
-    margin: 0 auto;
+    margin: 3rem auto;
 }
 
 .b-item{
@@ -85,8 +85,8 @@ body{
   padding-left: 20px;
 }
 
-.skills-container{
-    margin: 10rem 0;
+.skills-container, .projects-container{
+    margin: 10rem 5rem;
 }
 
 .skill-card{
@@ -102,6 +102,69 @@ body{
     text-align: center;
     padding: 1.5rem 1rem;
 }
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
+}
+
+.project-image {
+  width: 100%;
+  background-color: #25231f;
+  object-fit: cover;
+}
+
+.project-cards {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  border: 1px solid #403a31;
+  border-radius: 12px;
+  background-color: #1d1c19;
+}
+
+.pcard-info{
+display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px;
+}
+
+.project-content p{
+    color: #c0b9ad;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: auto 0 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.tech-list li {
+  padding: 4px 10px;
+  border: 1px solid #403a31;
+  border-radius: 20px;
+  color: #e3b374;
+  font-size: 0.85rem;
+}
+
+.view-project-btn {
+  color: #e3b374;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.view-project-btn:hover{
+  text-decoration: underline;
+}
+
+
 
 
 
