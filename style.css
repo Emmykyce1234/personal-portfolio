@@ -71,7 +71,7 @@ body{
 }
     
 
-.about-intro, .skill-intro, .projects-intro{
+.about-intro, .skill-intro, .projects-intro, .exp-intro{
     text-align: center;
     max-width: 700px;
     margin: 3rem auto;
@@ -85,7 +85,7 @@ body{
   padding-left: 20px;
 }
 
-.skills-container, .projects-container{
+.skills-container, .projects-container, .experience-container{
     margin: 10rem 5rem;
 }
 
@@ -162,6 +162,31 @@ display: flex;
 
 .view-project-btn:hover{
   text-decoration: underline;
+}
+
+.exp-table {
+  border: 1px solid #403a31;
+  border-radius: 10px;
+  background-color: #1d1c19;
+}
+
+table {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #403a31;
+  vertical-align: top;
+}
+
+th {
+  background-color: #25231f;
+  color: #e3b374;
 }
 
 
