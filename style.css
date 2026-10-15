@@ -11,6 +11,42 @@ body{
     background-color: #000;
 }
 
+header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  min-height: 68px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background-color: #000;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 30px; 
+}
+
+
+.navigation a {
+  text-decoration: none;
+}
+
+.navigation a:hover{
+  text-decoration: underline;
+}
+
+.brand {
+  color: #e3b374;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+
 .main-container{
     height:100vh;
     display: flex;
